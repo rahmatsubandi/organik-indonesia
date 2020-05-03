@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/nav.png">
+    <!-- Css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Cart Checkout</title>
+</head>
+
+<body>
+    <!-- Judul halaman -->
+    <div class="container cart-header">
+        <div class="row mt-5 text-center">
+            <div class="col">
+                <h3>Your Cart</h3>
+                <p>Don't forget to pay for your groceries so we can process it.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Judul halaman -->
+
+    <!-- Breadcrumb -->
+    <div class="container mt-3">
+        <nav>
+            <ol class="breadcrumb bg-transparent pl-0">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Cart Checkout</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- End Breadcrumb -->
+
+    <!-- Checkout -->
+    <section class="checkout">
+        <div class="container">
+            <div class="row justify-content-between" style="margin-bottom: 100px;">
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Your Items</h4>
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="img/checkout/1.png">
+                        </div>
+                        <div class="col-4">
+                            <h5 class="m-0">Sayur Sawi</h5>
+                            <p class="m-0" style="color: #b7b7b7;">IDR 15.000</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm" style="background-color: #d6d6d6; color: white;"><i
+                                    class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">10</span>
+                            <button type="button" class="btn btn-success btn-sm"><i
+                                    class="fas fa-plus-circle"></i></button>
+                        </div>
+                        <div class="col-2 text-right">
+                            <button type="button" class="btn btn-danger btn-sm"><i
+                                    class="fas fa-times-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="img/checkout/2.png">
+                        </div>
+                        <div class="col-4">
+                            <h5 class="m-0">Bayem</h5>
+                            <p class="m-0" style="color: #b7b7b7;">IDR 40.000</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm" style="background-color: #d6d6d6; color: white;"><i
+                                    class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">10</span>
+                            <button type="button" class="btn btn-success btn-sm"><i
+                                    class="fas fa-plus-circle"></i></button>
+                        </div>
+                        <div class="col-2 text-right">
+                            <button type="button" class="btn btn-danger btn-sm"><i
+                                    class="fas fa-times-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="img/checkout/3.png">
+                        </div>
+                        <div class="col-4">
+                            <h5 class="m-0">Melon</h5>
+                            <p class="m-0" style="color: #b7b7b7;">IDR 40.000/Kg</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm" style="background-color: #d6d6d6; color: white;"><i
+                                    class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">10</span>
+                            <button type="button" class="btn btn-success btn-sm"><i
+                                    class="fas fa-plus-circle"></i></button>
+                        </div>
+                        <div class="col-2 text-right">
+                            <button type="button" class="btn btn-danger btn-sm"><i
+                                    class="fas fa-times-circle"></i></button>
+                        </div>
+                    </div>
+
+                    <h4 class="mb-3" style="margin-top:80px;">Your Address</h4>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" placeholder="Complete Address">
+                        </div>
+                        <div class="form-group">
+                            <label for="address2">Address II</label>
+                            <input type="text" class="form-control" id="address2" placeholder="Additional Addresses">
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <select class="custom-select">
+                                <option selected>Select City</option>
+                                <option value="1">Bekasi</option>
+                                <option value="2">Jakarta</option>
+                                <option value="3">Bandung</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <select class="custom-select">
+                                <option selected>Select Country</option>
+                                <option value="1">Indonesian</option>
+                                <option value="2">Thailand</option>
+                                <option value="3">Singapore</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="card rounded-0 card-detail">
+                        <div class="card-body">
+                            <h5 class="card-title">Fee Information</h5>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Sayur Sawi</h6>
+                                    <small style="color:#b7b7b7;">10 Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR 15.000</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Bayem</h6>
+                                    <small style="color:#b7b7b7;">10 Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR 40.000</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Melon</h6>
+                                    <small style="color:#b7b7b7;">10 Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR 40.000/Kg</h6>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Courier</h6>
+                                    <small style="color:#b7b7b7;">JNE</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR 15.000</h6>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Tax</h6>
+                                    <small style="color:#b7b7b7;">Negara 30%</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR 95.000</h6>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Total Harga</h6>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-primary">IDR 185.000</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col">
+                            <button type="button" class="btn btn-block"
+                                style="background-color: #eaeaef; color:#adadad">Cancel</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-block text-white" style="background-color: #108118;"
+                                data-toggle="modal" data-target="#checkoutModal">Checkout</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Checkout -->
+
+    <!-- Modal Chekout -->
+
+    <!-- Modal -->
+    <div class="modal fade modal-checkout" id="checkoutModal" tabindex="-1" role="dialog"
+        aria-labelledby="checkoutModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <img src="img/checkout/modal.png" class="mb-4">
+                    <h3>Checkout Success</h3>
+                    <p>Wait for #justathome.<br>We will deliver the goods as soon as possible</p>
+                    <hr>
+                    <a href="index.html" class="btn mb-3 mt-1" style="background-color: #eaeaef; color:#adadad">Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Chekout -->
+
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <a href="">
+                        <img src="img/nav.png">
+                    </a>
+                </div>
+                <div class="col-4 text-right">
+                    <a href="">
+                        <img src="img/footer/fb.png">
+                    </a>
+                    <a href="">
+                        <img src="img/footer/ig.png">
+                    </a>
+                    <a href="">
+                        <img src="img/footer/tw.png">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-between">
+                <div class="col-5">
+                    <p>All rights Reserverd by Organik Indonesia &copy; Copyright 2020.</p>
+                </div>
+                <div class="col-6">
+                    <nav class="nav justify-content-end text-uppercase">
+                        <a class="nav-link active" href="#">Info</a>
+                        <a class="nav-link" href="developer.html">Developers</a>
+                        <a class="nav-link" href="#">Terms</a>
+                        <a class="nav-link pr-0" href="#">Privacy Policy</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
